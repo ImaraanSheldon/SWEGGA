@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="d-flex flex-row">
+      <section class="box"><img src="Image/swegga.jpg" alt=""></section>
+      <section>
+        <section class="text-center"><img src="Image/delivery.gif" alt=""></section>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto gx-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="text-center sideMar">
+          <h2>Product Summary</h2>
+          <div class="row">
+            <!-- row-one -->
+            <div class="col-2">Description</div>
+            <div class="col-2">Size</div>
+            <div class="col-2">Colour</div>
+            <div class="col-2">Price</div>
+            <div class="col-2">Quantity</div>
+            <div class="col-2">Total</div>
+
+            <!-- row two -->
+            <div class="col-2"> <a href="#">Female Ski-Jackets</a></div>
+            <select class="col-2">
+                <option value="Extra_Small">Extra Small</option>
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+            </select>
+            <select class="col-2">
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Grey">Grey</option>
+            </select>
+            <input id="fPrice" type="type" class="col-2" value="R 150.95" readonly>
+            <select id="femaleQuantity"  class="col-2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <input id="tired" type="text" class="col-2" readonly>
+
+            <!-- row three -->
+            <div class="col-2"> <a href="#">Male Ski-Jackets</a></div>
+            <select class="col-2">
+                <option value="Extra_Small">Extra Small</option>
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+            </select>
+            <select class="col-2">
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Grey">Grey</option>
+            </select>
+            <input id="maleQuantity" type="text" class="col-2" value="R 180.95" readonly>
+            <select class="col-2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <input type="text" value="" class="col-2"readonly>
+
+            <!-- row four -->
+            <div class="col-8"></div>
+            <div class="col-2">
+              <button type="button" class="btn">find</button>
+            </div>
+            <input type="text" class="col-2"readonly>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container-fluid"></footer>
+    <script src="script/code.js"></script>
+  </body>
+</html>
