@@ -78,12 +78,13 @@
                 <option value="Grey">Grey</option>
             </select>
             <input id="fPrice" type="type" class="col-2" value="R 150.95" readonly>
-            <select id="femaleQuantity"  class="col-2">
+            <select onclick="tired()" id="femaleQuantity"  class="col-2">
+                <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
             </select>
-            <input id="tired" type="text" class="col-2" readonly>
+            <input id="tfPrice" type="text" class="col-2" readonly>
 
             <!-- row three -->
             <div class="col-2"> <a href="#">Male Ski-Jackets</a></div>
@@ -98,20 +99,21 @@
                 <option value="White">White</option>
                 <option value="Grey">Grey</option>
             </select>
-            <input id="maleQuantity" type="text" class="col-2" value="R 180.95" readonly>
-            <select class="col-2">
+            <input id="mPrice" type="text" class="col-2" value="R 180.95" readonly>
+            <select onclick="fr()" id="maleQuantity" class="col-2">
+                <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
             </select>
-            <input type="text" value="" class="col-2"readonly>
+            <input id="tmPrice" type="text" value="" class="col-2"readonly>
 
             <!-- row four -->
             <div class="col-8"></div>
             <div class="col-2">
-              <button type="button" class="btn">find</button>
+              <button onclick="totalPrice()" type="button" class="btn">find</button>
             </div>
-            <input type="text" class="col-2"readonly>
+            <input id="valueMAIN" type="text" class="col-2"readonly>
           </div>
         </div>
       </section>
