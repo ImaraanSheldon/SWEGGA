@@ -29,7 +29,17 @@ body{
 footer{
     margin-top:0.5em;
     border: 2px solid grey;
-    padding-top: 7em;
+    padding: 0.5rem;
+}
+
+nav{
+    background-color: red;
+}
+ul li{
+    background-color: #5388D8;
+    margin: 0.5rem;
+    border-top-right-radius:25% ;
+    border-bottom-left-radius:25% ;
 }
 
 /* Imaraan Sheldon */
